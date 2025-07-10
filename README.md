@@ -9,7 +9,7 @@
 ## Installation Link<br>
 
   ```html
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/vlu4a.sh && chmod +x vlu4a.sh && ./vlu4a.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/Elysya28/XrayCol/main/setup.sh && chmod +x setup.sh && ./setup.sh
   ```
 
 [ XRAY SERVICES ] <br>
