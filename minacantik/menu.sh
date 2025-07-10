@@ -141,7 +141,7 @@ echo ""
 read -n 1 -s -r -p "Penyet sak karepmu cuk"
 menu
 }
-wget -q -O /root/status "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/statushariini"
+wget -q -O /root/status "https://raw.githubusercontent.com/Elysya28/XrayCol/main/statushariini"
 LocalVersion=$(cat /root/versi)
 IPVPS=$(curl -s ipinfo.io/ip )
 ISPVPS=$( curl -s ipinfo.io/org )
