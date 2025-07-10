@@ -88,7 +88,14 @@ clear
 		fi
 	done
 
-uuid=$(cat /proc/sys/kernel/random/uuid)
+
+echo -n "Password (leave blank for random UUID): "
+read manual_pass
+if [[ -z "$manual_pass" ]]; then
+	uuid=$(cat /proc/sys/kernel/random/uuid)
+else
+	uuid="$manual_pass"
+fi
 read -p "Expired (days): " masaaktif
 exp=`date -d "$masaaktif days" +"%Y-%m-%d"`
 sed -i '/#trojanws$/a\### '"$user $exp"'\
