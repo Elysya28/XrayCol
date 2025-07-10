@@ -118,11 +118,11 @@ chmod +x /root/.acme.sh/acme.sh
 ~/.acme.sh/acme.sh --installcert -d $domain --fullchainpath /etc/xray/xray.crt --keypath /etc/xray/xray.key --ecc
 echo -e "${OKEY} Your Domain : $domain"
 sleep 2
-wget -q -O janggut.sh https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/janggut.sh && chmod +x janggut.sh && ./janggut.sh
+wget -q -O janggut.sh https://raw.githubusercontent.com/Elysya28/XrayCol/main/janggut.sh && chmod +x janggut.sh && ./janggut.sh
 sleep 1
-wget -q -O ins-xray.sh https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget -q -O ins-xray.sh https://raw.githubusercontent.com/Elysya28/XrayCol/main/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 sleep 1
-wget -q -O senmenu.sh https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/senmenu.sh && chmod +x senmenu.sh && ./senmenu.sh
+wget -q -O senmenu.sh https://raw.githubusercontent.com/Elysya28/XrayCol/main/senmenu.sh && chmod +x senmenu.sh && ./senmenu.sh
 sleep 1
 IP=$(echo $SSH_CLIENT | awk '{print $1}')
 TMPFILE='/tmp/ipinfo-$DATE_EXEC.txt'
@@ -132,8 +132,8 @@ domain=$(cat /etc/xray/domain)
 LocalVersion=$(cat /root/versi)
 IPVPS=$(curl -s ipinfo.io/ip )
 ISPVPS=$( curl -s ipinfo.io/org )
-token=5922026926:AAE5t2CXnOOT57zWdua2wfHKKG9URGEQdP0
-chatid=1106186898
+token=7556182361:AAHudjG3yLHOZ_MdRaJcBHq4HfNEnAKZDqs
+chatid=1094823863
 ttoday="$(vnstat | grep today | awk '{print $8" "substr ($9, 1, 3)}' | head -1)"
 tmon="$(vnstat -m | grep `date +%G-%m` | awk '{print $8" "substr ($9, 1 ,3)}' | head -1)"
 DATE_EXEC="$(date "+%d %b %Y %H:%M")"
