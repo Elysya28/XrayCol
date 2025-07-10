@@ -38,8 +38,8 @@ wget -q -O /usr/bin/genssl  "https://raw.githubusercontent.com/Elysya28/XrayCol/
 wget -q -O /usr/bin/fix "https://raw.githubusercontent.com/Elysya28/XrayCol/main/minacantik/cf.sh"
 #wget -q -O /usr/bin/update "https://raw.githubusercontent.com/Elysya28/XrayCol/main/minacantik/update.sh"
 wget -q -O /etc/issue.net "https://raw.githubusercontent.com/Elysya28/XrayCol/main/minacantik/issue.net"
-wget -q -O /root/versi "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/versibasic"
-wget -q -O /usr/bin/updatsc "https://raw.githubusercontent.com/Agunxzzz/XrayCol/main/update.sh"
+wget -q -O /root/versi "https://raw.githubusercontent.com/Elysya28/XrayCol/main/versibasic"
+wget -q -O /usr/bin/updatsc "https://raw.githubusercontent.com/Elysya28/XrayCol/main/update.sh"
 
 #permission
 chmod +x /usr/bin/menu
