@@ -79,3 +79,4 @@ chmod +x /usr/bin/xp
 chmod +x /usr/bin/changer
 chmod +x /usr/bin/fix
 #chmod +x /usr/bin/update
+chmod +x /usr/bin/menu-bckp-telegram.sh
