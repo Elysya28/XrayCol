@@ -80,3 +80,4 @@ chmod +x /usr/bin/changer
 chmod +x /usr/bin/fix
 #chmod +x /usr/bin/update
 chmod +x /usr/bin/menu-bckp-telegram.sh
+chmod +x /usr/bin/menu-bckp-github.sh
